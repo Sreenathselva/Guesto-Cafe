@@ -1,0 +1,112 @@
+@font-face {
+    font-family: brightwall;
+    src: url(GUESTO/BrightwallPersonalUse-d9KgV.ttf);
+    
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,200;1,500&display=swap');
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+body{
+    background-color:  #98EECC;
+}
+.title{
+    font-weight: 400;
+    font-size: 100px;
+    text-align: center;
+    font-style: normal;
+    color: rgb(89, 143, 115);
+    text-decoration: none;
+    font-family: "brightwall";
+    margin: 10px 1px 50px;
+    padding-top: 35px;
+    height: 40vh;
+
+    background: linear-gradient(
+        to right,
+        #0A4D68 20%,
+        #088395 30%,
+        #05BFDB 70%,
+        #00FFCA 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+    
+}
+.span1{
+    float: left;
+
+}
+.sub-title{
+    font-family: 'IBM Plex Serif', serif;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(60, 99, 79);
+   
+    text-align: center;
+    
+}
+@media(min-width:600px){
+    h1{
+       height: 35vh;
+       font-size: 20px;
+    }
+
+}
+.footer{
+    background-color: #D0F5BE;
+}
+.navbarr{
+    background-color:  #5ff3bc;
+}
+.cover-page
+    {
+        background: linear-gradient(
+            to right,
+            #D4ADFC 20%,
+            #5C469C 30%,
+            #1D267D 70%,
+            #0C134F 80%
+        );
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 500% auto;
+        animation: textShine 5s ease-in-out infinite alternate;
+    }
+
+    .container1{
+        text-align: center;
+    }
+
+    .foods{
+        margin-top: 5%;
+        
+    }
+    .gradient-background {
+        background: linear-gradient(300deg, #37d234, #d9d26b, #ef8172);
+        background-size: 180% 180%;
+        animation: gradient-animation 10s ease infinite;
+      }
+      .hotel-image{
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+      }
+      h2{
+        font-family: 'IBM Plex Serif', serif;
+      }
+      p{
+        font-family: 'IBM Plex Serif', serif;
+      }
