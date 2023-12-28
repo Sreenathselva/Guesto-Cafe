@@ -17,6 +17,9 @@
 body{
     background-color:  #98EECC;
 }
+a{
+       text-decoration: none;
+}
 .title{
     font-weight: 400;
     font-size: 100px;
